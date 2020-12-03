@@ -9,9 +9,9 @@ function App() {
                 <div className="stopwatch">
 
                     <DisplayComponent/>
-        
+
                 </div>
-                
+                                        
             </div>
 
         </div>

@@ -7,7 +7,7 @@ type Props = {
     stop: () => void
     reset : () => void
     resume : () => void
-}
+}                   
 
 const TimerButtons = (props: Props) => {
     const { buttonAction } = props

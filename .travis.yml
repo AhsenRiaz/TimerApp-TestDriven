@@ -3,10 +3,14 @@ language: node_js
 node_js:
   - "stable"
 
+cache:
+  dependencies:
+    node_modules
+
 script:
-  - npm install 
-  - npm test 
-  - npm run build
+  - yarn --frozen-lockfile
+  - yarn test 
+  - yarn run build
 
 
 deploy:
