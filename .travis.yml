@@ -15,4 +15,4 @@ deploy:
   project: ./build/
 
 on: 
-  branch:master
+  branch: master
