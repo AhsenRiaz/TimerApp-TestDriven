@@ -8,10 +8,11 @@ script:
   - npm test 
   - npm run build
 
+
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: http://timerapp-byahsen.surge.sh/
+  domain: timerapp-byahsen.surge.sh
   project: ./build/
 
 on: 
